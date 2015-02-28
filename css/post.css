@@ -1,0 +1,78 @@
+/* CSS Document */
+.container{
+	min-width:900px;
+	max-width:900px;
+	position:relative;
+	left:50%;
+	margin-top:50px;
+	margin-left:-450px;
+	padding:8px;
+}
+
+.question{
+	padding-top:14px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:14px;
+	-webkit-box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	-moz-box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	letter-spacing:1.1px;
+}
+
+.question td:first-child{
+	padding:10px;	
+}
+
+.answerbox{
+	margin-top:18px;
+}
+
+.answerbox input[type='text']{
+	width:882px;
+	height:36px;
+	font-size:18px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:8px;
+	padding-right:8px;
+	letter-spacing:1.1px;
+	border: 1px solid #EEE;
+}
+
+.answerbox input[type='text']:hover{
+		border: 1px solid #AAAAAA;
+}
+
+.answerbox input[type='text']:focus{
+		border: 1px solid rgb(0,162,232);
+}
+
+.reply{
+	margin-top:54px;
+	margin-bottom:26px;
+}
+
+.replydetail{
+	margin-top:16px;
+	padding-top:14px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:14px;
+	-webkit-box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	-moz-box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	box-shadow: 0px 3px 24px 0px rgba(222,218,222,1);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	letter-spacing:1.3px;	
+}
+
+.replydetail td:first-child{
+	vertical-align:top;	
+	width:804px;
+}
+
+.replydetail td:last-child{
+
+}

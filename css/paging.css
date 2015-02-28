@@ -1,0 +1,33 @@
+/* CSS Document */
+
+div.pagination {
+	padding: 3px;
+	margin-top:32px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #CCCCCC;
+	text-decoration: none; /* no underline */
+	color: rgb(33,169,87);
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #BBBBBB;
+	color: #060;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid rgb(33,169,87);
+		font-weight: bold;
+	background-color: rgb(33,169,87);
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+		color: #DDD;
+	}
+	

@@ -1,0 +1,73 @@
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;	
+}
+
+.header{
+	height:36px;
+	min-width:900px;
+	color:black;
+	background-color:#EEE;
+	font-size:14px
+}
+
+.header a{
+	text-decoration:none	
+}
+
+.header li{
+	display:inline-block;
+	margin-right:4px;	
+}
+
+.header .left{
+	float:left;
+	margin-top:-9px;		
+}
+
+.header .left li:first-child{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+
+.header .left a{
+	color:black;	
+}
+
+.header .left li:first-child span{
+	color:rgb(33,169,87);
+}
+
+.header .right{
+	float:right;
+	margin-top:-7px;
+}
+
+.login-btn{
+	background-color: rgb(33,169,87);
+	padding:2px 6px 2px 6px;
+	cursor: pointer;	
+	margin-right:6px;
+	font-weight:bold;
+	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	transition: all 0.6s ease 0s;
+}
+
+.login-btn:hover{
+	background-color: #090;
+}
+
+.header .right input[type='text'], .header .right input[type='password']{
+		border:1px solid #DDD;
+}
+
+.header .right input[type='text']:hover, .header .right input[type='password']:hover{
+		border: 1px solid #AAAAAA;
+}
+
+.header .right input[type='text']:focus, .header .right input[type='password']:focus{
+		border: 1px solid rgb(0,162,232);
+}
